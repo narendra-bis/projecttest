@@ -6,3 +6,8 @@ from django.http import HttpResponse, HttpResponseRedirect
 def index(request):
 	print('indextest')
 	return render(request,'myapp/index.html')
+
+
+def test(request):
+	print('test for github')
+	return HttpResponse('ok')
